@@ -9,21 +9,67 @@
 </head>
 
 <body>
-    <style>nav {
-        display: flex;/* pozwala na elastyczne ustawianie elementów wzdłuż jednej osi lub dwóch osi */
-        justify-content: space-between; /* wyrównanie elementów poziomo  */
-        background-color: #a29797;/* color pasek tło-pozwala na wybranie dowolnego koloru, który będzie widoczny na tle danego elementu */
-        
-      }</style>
+    <style>
+        nav {
+            display: flex;
+            /* pozwala na elastyczne ustawianie elementów wzdłuż jednej osi lub dwóch osi */
+            justify-content: space-between;
+            /* wyrównanie elementów poziomo  */
+            background-color: #a29797;
+            /* color pasek tło-pozwala na wybranie dowolnego koloru, który będzie widoczny na tle danego elementu */
+
+        }
+    </style>
 
     <nav>
-        <a href="About us">About us</a>
-        <a href="Skills">Skills</a>
-        <a href="Portfolio">Portfolio</a>
-        <a href="Contact">Contact</a>
+        <a href="#About">About us</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contact">Contact</a>
     </nav>
 
-    <selection></selection>
+
+
+    <!-- <style>:target {background-color: yellow}</style>   -->
+
+    <style>
+        :target {
+            background-color: yellow;
+        }
+    </style>
+
+    <!-- selection#About -->
+
+    <section id="About">
+        <h2>About us</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem doloribus quia fugit nesciunt itaque maxime
+            blanditiis molestias id, voluptatibus sint voluptas natus, vel optio qui? Repellendus ullam quaerat
+            necessitatibus quasi omnis doloribus earum, voluptatem consequuntur voluptas porro corrupti eveniet
+            excepturi iusto dolore ex voluptatum laudantium. Accusamus nemo nesciunt nihil praesentium.</p>
+    </section>
+
+
+
+    <section id="Skills">
+        <h2>Skills</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, minima..</p>
+    </section>
+
+
+
+    <section id="Portfolio">
+        <h2>Portfolio</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nihil suscipit totam dolore nostrum
+            deleniti numquam facere nulla doloribus deserunt iusto dolorem. Rem reiciendis eaque corporis consequatur
+            incidunt nulla quos?.</p>
+    </section>
+
+    <section id="Contact">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet..</p>
+    </section>
+
+
 
 
 </body>
