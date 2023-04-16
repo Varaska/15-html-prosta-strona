@@ -34,14 +34,13 @@
 
     <style>
         :target {
-            background-color: yellow;
+            background-color: rgb(198, 218, 223);
         }
 
-        .portfolio {
+        .portfolio-item {
             display: inline-block;
             margin-right: 10px;
         }
-
     </style>
 
     <!-- selection#About -->
@@ -85,13 +84,13 @@
     <section id="Portfolio">
 
         <h2>Portfolio</h2>
-        <div class="portfolio">
+        <div class="portfolio-item">
             <img src="https://webai.lt/wp-content/uploads/2020/08/React_logo.png" alt="React">
         </div>
-        <div class="portfolio">
+        <div class="portfolio-item">
             <img src="https://www.shareicon.net/data/256x256/2016/01/14/703386_gamepad_512x512.png" alt="Game pad">
         </div>
-        <div class="portfolio">
+        <div class="portfolio-item">
             <img src="https://www.shareicon.net/data/256x256/2015/08/03/79410_zelda_512x512.png" alt="Zelda game">
         </div>
 
@@ -99,8 +98,43 @@
     </section>
 
     <section id="Contact">
-        <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet..</p>
+
+        <h3>Jan Kowalski</h3>
+
+        <address>
+            ul. Kowalska 12<br>
+            00-000 Warszawa<br>
+            Polska<br>
+
+            <a href="tel:+48123456789">+48 123 456 789</a><br>
+            <a href="mailto:jan.kowalski@mojadomena.pl">jan.kowalski@wymyslonadomena.pl</a>
+
+        </address>
+
+        <!-- forma do wprowadzenia danych -->
+
+        <form>
+
+            <div>
+                <label for="name">Imię:</label><br>
+                <input type="text" id="name" name="name" required> <!-- requared atrybut wskazuję na obowiązkowe wypelnianie formy  -->
+            </div>
+
+            <div>
+                <label for="subject">Temat:</label><br>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div>
+                <label for="message">Wiadomość:</label><br>
+                <textarea id="message" name="message" required></textarea> <!-- textarea dla sbióra danych od usera(komenty,opinie itd) -->
+            </div>
+
+            <div>
+                <button type="submit">Wyślij</button>
+            </div>
+
+        </form>
     </section>
 
 
