@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
 
-<body>
     <style>
         nav {
             display: flex;
@@ -19,7 +18,22 @@
             /* color pasek tło-pozwala na wybranie dowolnego koloru, który będzie widoczny na tle danego elementu */
 
         }
+
+        :target {
+            background-color: rgb(198, 218, 223);
+        }
+
+        .portfolio-item {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
     </style>
+
+</head>
+
+<body>
+
 
     <nav>
         <ul>
@@ -33,20 +47,6 @@
 
     </nav>
 
-
-
-    <!-- <style>:target {background-color: yellow}</style>   -->
-
-    <style>
-        :target {
-            background-color: rgb(198, 218, 223);
-        }
-
-        .portfolio-item {
-            display: inline-block;
-            margin-right: 10px;
-        }
-    </style>
 
     <!-- selection#About -->
 
